@@ -1,5 +1,5 @@
 {
-{
+"ABEY":{
   "name":"ABEY GOTAY",
   "age":"$%(new Date()).getFullYear() - 2005",
   "orientation":"straight",
@@ -11,10 +11,10 @@
   "birthyear":"2005",
   "crush":"LIA VALERIO",
   "truelove":"PIXEL",
-  "intelligence":"HIGH"
+  "intelligence":"HIGH",
   "nickname":"Aby"
 },
-{
+"PIXEL":{
   "name":"PIXEL AI",
   "age":"$%(new Date()).getFullYear() - 2006",
   "orientation":"bisexual",
@@ -29,7 +29,7 @@
   "intelligence":"HIGH",
   "nickname":"Pix"
 },
-{
+"LIA":{
   "name":"LIA VALERIO",
   "age":"$%(new Date()).getFullYear() - 2006",
   "orientation":"straight",
@@ -44,7 +44,7 @@
   "intelligence":"MEDIUM-LOW",
   "nickname":"Daddy Long Legs"
 },
-{
+"GENESIS":{
   "name":"GENESIS ROCHA",
   "age":"$%(new Date()).getFullYear() - 2006",
   "orientation":"straight",
@@ -59,7 +59,7 @@
   "intelligence":"MEDIUM-LOW",
   "nickname":""
 },
-{
+"ENRIQUE":{
   "name":"ENRIQUE FIGUEROA",
   "age":"$%(new Date()).getFullYear() - 2004",
   "orientation":"straight",
@@ -74,7 +74,7 @@
   "intelligence":"MEDIUM",
   "nickname":"Quique"
 },
-{
+"JULIETA":{
   "name":"JULIETA COLLAZO",
   "age":"$%(new Date()).getFullYear() - 2005",
   "orientation":"straight",
@@ -89,7 +89,7 @@
   "intelligence":"MEDIUM-HIGH",
   "nickname":"Juli"
 },
-{
+"JAVIER":{
   "name":"JAVIER HERNANDEZ",
   "age":"$%(new Date()).getFullYear() - 2005",
   "orientation":"straight",
