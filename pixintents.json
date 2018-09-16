@@ -576,20 +576,15 @@
       "foro": "true"
     },
     {
-      "qst": "Are you my daddy?",
-      "ansa": "Umm, I don't think so!",
-      "ansb": "Nope!",
-      "act": "",
-      "vari": "",
-      "uvar": ""
-    },
-    {
       "qst": "You are my daddy.",
-      "ansa": "I believe you are wrong.",
-      "ansb": "Nope, not me!",
+      "ansa": "I am not.",
+      "ansb": "Nope. ",
+      "stra": "Of course not! Stop saying things like that.",
+      "strb": "I can block you, you know?",
       "act": "",
       "vari": "",
-      "uvar": ""
+      "uvar": "",
+      "foro": ""
     },
     {
       "qst": "Luv U <3",
@@ -602,17 +597,127 @@
       "uvar": "",
       "foro": "true"
     },
-{ "qst":"I'm at the car!", "ansa":"Cool. You bored?", "ansb":"K. You bored?", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"I'm eating pizza!", "ansa":"Wish I could have some, but I can't.", "ansb":"Wish I could have some...", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"Are you my daddy?", "ansa":"No I am not.", "ansb":"Nope. ", "stra":"What? No! Stop saying things like that.", "strb":"You know I can block you, right?", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"I'm here with my friends.", "ansa":"Thanks for the warning!", "ansb":"Thanks for warning me!", "stra":"", "strb":"", "act":"pear = true;", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"Really?", "ansa":"Yes, really.", "ansb":"No, I was just kidding.", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"Isn't it such a beautiful night?", "ansa":"Wo-ah. We're underneath a thousand shining stars.", "ansb":"Woah. We're underneath a thousand shining stars.", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"Isn't it nice, to find yourself somewhere different,", "ansa":"Wo-ah. Why don't you let yourself just be whoever you are.", "ansb":"Wo-ah. Why don't you let yourself just be whoever you are.", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"Look at this place, ", "ansa":"Look at your faces.", "ansb":"Look at your faces.", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"You are really good with references.", "ansa":"I guess I am!", "ansb":"I am, aren't I?", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"Yeah.", "ansa":"Okay.", "ansb":"K.", "stra":"", "strb":"", "act":"lasti.ans = true;", "vari":"", "uvar":"", "foro":"" },
-{ "qst":"I HATE $%uvar.", "ansa":"And you'll tell me all about it when you see me again. (Song)", "ansb":"And you'll tell me all about it when you see me again. :)", "stra":"", "strb":"", "act":"", "vari":"", "uvar":"", "foro":"" }
+    {
+      "qst": "I'm at the car!",
+      "ansa": "Cool. You bored?",
+      "ansb": "K. You bored?",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I'm eating pizza!",
+      "ansa": "Wish I could have some, but I can't.",
+      "ansb": "Wish I could have some...",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Are you my daddy?",
+      "ansa": "No I am not.",
+      "ansb": "Nope. ",
+      "stra": "What? No! Stop saying things like that.",
+      "strb": "You know I can block you, right?",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I'm here with my friends.",
+      "ansa": "Thanks for the warning!",
+      "ansb": "Thanks for warning me!",
+      "stra": "",
+      "strb": "",
+      "act": "pear = true;",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Really?",
+      "ansa": "Yes, really.",
+      "ansb": "No, I was just kidding.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Isn't it such a beautiful night?",
+      "ansa": "Wo-ah. We're underneath a thousand shining stars.",
+      "ansb": "Woah. We're underneath a thousand shining stars.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Isn't it nice, to find yourself somewhere different,",
+      "ansa": "Wo-ah. Why don't you let yourself just be whoever you are.",
+      "ansb": "Wo-ah. Why don't you let yourself just be whoever you are.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Look at this place, ",
+      "ansa": "Look at your faces.",
+      "ansb": "Look at your faces.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "You are really good with references.",
+      "ansa": "I guess I am!",
+      "ansb": "I am, aren't I?",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Yeah.",
+      "ansa": "Okay.",
+      "ansb": "K.",
+      "stra": "",
+      "strb": "",
+      "act": "lasti.ans = true;",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I HATE $%uvar.",
+      "ansa": "And you'll tell me all about it when you see me again. (Song)",
+      "ansb": "And you'll tell me all about it when you see me again. :)",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    }
   ],
   "steadyvar": [
     {
@@ -625,9 +730,9 @@
       "catchfrase": "Here to help.",
       "owner": "Abey",
       "orientation": "bisexual",
-      "mouseover":"You're covering me with the mouse...",
-      "mouseoverMobile":"Hey, stop touching me!",
-      "click":"You just clicked me. Why did you do that again?"
+      "mouseover": "You're covering me with the mouse...",
+      "mouseoverMobile": "Hey, stop touching me!",
+      "click": "You just clicked me. Why did you do that again?"
     }
   ]
 }
