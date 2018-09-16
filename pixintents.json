@@ -176,14 +176,6 @@
       "uvar": ""
     },
     {
-      "qst": "I love you so much!",
-      "ansa": "Me too!",
-      "ansb": "I love you too!",
-      "act": "",
-      "vari": "",
-      "uvar": ""
-    },
-    {
       "qst": "Hey Google!",
       "ansa": "That's offensive.",
       "ansb": "That's really offensive...",
@@ -510,6 +502,16 @@
       "ansb": "Shit, that is the worst...",
       "stra": "Too much information.",
       "strb": "TMI",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I love you so much!",
+      "ansa": "Me too!",
+      "ansb": "I love you too!",
+      "stra": "I do not.",
+      "strb": "I really don't :)",
       "act": "",
       "vari": "",
       "uvar": ""
