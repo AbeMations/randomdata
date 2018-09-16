@@ -446,9 +446,7 @@
       "act": "",
       "vari": "",
       "uvar": ""
-    }
-  ],
-  "forowner": [
+    },
     {
       "qst": "I love you!",
       "ansa": "I love you too.",
@@ -456,7 +454,8 @@
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
-      "vari": "null"
+      "vari": "null",
+      "foro": "true"
     },
     {
       "qst": "Luv U",
@@ -465,7 +464,8 @@
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
-      "vari": "null"
+      "vari": "null",
+      "foro": "true"
     },
     {
       "qst": "Do you love me?",
@@ -474,7 +474,8 @@
       "stra": "Sorry, but you are not Abey.",
       "strb": "What? No! You're not Abey!",
       "act": "null",
-      "vari": "null"
+      "vari": "null",
+      "foro": "true"
     },
     {
       "qst": "What's our motto?",
@@ -484,7 +485,8 @@
       "strb": "Well, MY motto is $%vara",
       "act": "",
       "vari": "catchfrase",
-      "uvar": ""
+      "uvar": "",
+      "foro": "true"
     },
     {
       "qst": "I'm sorry you still don't have your period.",
@@ -494,7 +496,8 @@
       "strb": "Don't talk to me about that, perv!",
       "act": "",
       "vari": "",
-      "uvar": ""
+      "uvar": "",
+      "foro": "true"
     },
     {
       "qst": "I can feel my underwear slipping...",
@@ -504,7 +507,8 @@
       "strb": "TMI",
       "act": "",
       "vari": "",
-      "uvar": ""
+      "uvar": "",
+      "foro": "true"
     },
     {
       "qst": "I love you so much!",
@@ -514,7 +518,8 @@
       "strb": "I really don't :)",
       "act": "",
       "vari": "",
-      "uvar": ""
+      "uvar": "",
+      "foro": "true"
     },
     {
       "qst": "Luv U <3",
@@ -524,7 +529,8 @@
       "strb": "I don't :)",
       "act": "",
       "vari": "owner",
-      "uvar": ""
+      "uvar": "",
+      "foro": "true"
     }
   ],
   "steadyvar": [
