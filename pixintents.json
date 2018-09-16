@@ -522,6 +522,76 @@
       "foro": "true"
     },
     {
+      "qst": "Good morning!",
+      "ansa": "Good morning to you!",
+      "ansb": "Good mornin'!",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+    },
+    {
+      "qst": "I just woke up...",
+      "ansa": "Welcome back to reality!",
+      "ansb": "Back from the dead I see...",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "They're treating me like a little kid.",
+      "ansa": "Again? You NEED to grow a beard.",
+      "ansb": "Grow a beard!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I forgot to put deodorant...",
+      "ansa": "Again, disgusting.",
+      "ansb": "Disgusting, really.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "What can those hands do?",
+      "ansa": "A lot more than you can see.",
+      "ansb": "A lot.",
+      "stra": "Strangle you.",
+      "strb": "Strangle you. Repeatedly. ",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Do you touch yourself?",
+      "ansa": "A lot more than you can see.",
+      "ansb": "A lot.",
+      "stra": "You are now going to be blocked.",
+      "strb": "BLOCKED, PERVERT!",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Are you my daddy?",
+      "ansa": "Umm, I don't think so!",
+      "ansb": "Nope!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "You are my daddy.",
+      "ansa": "I believe you are wrong.",
+      "ansb": "Nope, not me!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
       "qst": "Luv U <3",
       "ansa": "I love you too, $%vara!",
       "ansb": "Love you too, $%vara!",
