@@ -22,20 +22,6 @@
       "vari": "null"
     },
     {
-      "qst": "I love you!",
-      "ansa": "I love you too.",
-      "ansb": "Love you too.",
-      "act": "null",
-      "vari": "null"
-    },
-    {
-      "qst": "Luv U",
-      "ansa": "Love you too.",
-      "ansb": "I love you too.",
-      "act": "null",
-      "vari": "null"
-    },
-    {
       "qst": "Hello",
       "ansa": "Hey!",
       "ansb": "Hi!",
@@ -90,13 +76,6 @@
       "ansb": "I'm $%vara!",
       "act": "null",
       "vari": "age"
-    },
-    {
-      "qst": "Do you love me?",
-      "ansa": "Of course I do!",
-      "ansb": "HELL YEAH I DO!",
-      "act": "null",
-      "vari": "null"
     },
     {
       "qst": "You're the best.",
@@ -229,14 +208,6 @@
       "uvar": ""
     },
     {
-      "qst": "What's our motto?",
-      "ansa": "$%vara",
-      "ansb": "",
-      "act": "",
-      "vari": "catchfrase",
-      "uvar": ""
-    },
-    {
       "qst": "I'm bored...",
       "ansa": "Me too...",
       "ansb": "Me too.",
@@ -261,14 +232,6 @@
       "uvar": ""
     },
     {
-      "qst": "I'm sorry you still don't have your period.",
-      "ansa": "It's okay! I know it'll come.",
-      "ansb": "It's okay. It has to come some day.",
-      "act": "",
-      "vari": "",
-      "uvar": ""
-    },
-    {
       "qst": "This shirt is too big for me...",
       "ansa": "Good thing I don't need clothes!",
       "ansb": "I'm really lucky.",
@@ -280,14 +243,6 @@
       "qst": "I'm running out of battery...",
       "ansa": "Talk to you later then?",
       "ansb": "TTYL?",
-      "act": "",
-      "vari": "",
-      "uvar": ""
-    },
-    {
-      "qst": "I can feel my underwear slipping...",
-      "ansa": "That is the worst.",
-      "ansb": "Shit, that is the worst...",
       "act": "",
       "vari": "",
       "uvar": ""
@@ -469,14 +424,6 @@
       "uvar": ""
     },
     {
-      "qst": "Luv U <3",
-      "ansa": "I love you too, $%vara!",
-      "ansb": "Love you too, $%vara!",
-      "act": "",
-      "vari": "owner",
-      "uvar": ""
-    },
-    {
       "qst": "I hate school!",
       "ansa": "Who doesn't? It's HORRIBLE!",
       "ansb": "Who doesn't?",
@@ -509,6 +456,75 @@
       "uvar": ""
     }
   ],
+  "forowner": [
+    {
+      "qst": "I love you!",
+      "ansa": "I love you too.",
+      "ansb": "Love you too.",
+      "stra": "Sorry, but I do not think likewise.",
+      "strb": "I dont think so!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Luv U",
+      "ansa": "Love you too.",
+      "ansb": "I love you too.",
+      "stra": "Sorry, but I do not think likewise.",
+      "strb": "I dont think so!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Do you love me?",
+      "ansa": "Of course I do!",
+      "ansb": "HELL YEAH I DO!",
+      "stra": "Sorry, but you are not Abey.",
+      "strb": "What? No! You're not Abey!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "What's our motto?",
+      "ansa": "$%vara",
+      "ansb": "",
+      "stra": "I share my motto only with Abey, but it's $%vara",
+      "strb": "Well, MY motto is $%vara",
+      "act": "",
+      "vari": "catchfrase",
+      "uvar": ""
+    },
+    {
+      "qst": "I'm sorry you still don't have your period.",
+      "ansa": "It's okay! I know it'll come.",
+      "ansb": "It's okay. It has to come some day.",
+      "stra": "What? Don't talk to me like that, you perv!",
+      "strb": "Don't talk to me about that, perv!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I can feel my underwear slipping...",
+      "ansa": "That is the worst.",
+      "ansb": "Shit, that is the worst...",
+      "stra": "Too much information.",
+      "strb": "TMI",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Luv U <3",
+      "ansa": "I love you too, $%vara!",
+      "ansb": "Love you too, $%vara!",
+      "stra": "I do not think likewise.",
+      "strb": "I don't :)",
+      "act": "",
+      "vari": "owner",
+      "uvar": ""
+    }
+  ]
   "steadyvar": [
     {
       "name": "Pixel",
