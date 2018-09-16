@@ -387,9 +387,13 @@
       "qst": "Did you know the more ys in hey the more they like you?",
       "ansa": "He ( (y * Math.infinity) + 1 )",
       "ansb": "He ( (y * Math.infinity) + 1 ) ;)",
+      "stra": "Yes, I know",
+      "strb": "I know.",
       "act": "",
+      "sac":"tobp(1.8);",
       "vari": "",
-      "uvar": ""
+      "uvar": "",
+      "foro":"true"
     },
     {
       "qst": "What do you think about people?",
@@ -454,6 +458,7 @@
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
+      "sac":"tobp(1);",
       "vari": "null",
       "foro": "true"
     },
@@ -464,6 +469,7 @@
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
+      "sac":"tobp(0.6);",
       "vari": "null",
       "foro": "true"
     },
@@ -474,6 +480,7 @@
       "stra": "Sorry, but you are not Abey.",
       "strb": "What? No! You're not Abey!",
       "act": "null",
+      "sac":"tobp(0.8);",
       "vari": "null",
       "foro": "true"
     },
@@ -495,6 +502,7 @@
       "stra": "What? Don't talk to me like that, you perv!",
       "strb": "Don't talk to me about that, perv!",
       "act": "",
+      "sac":"tobp(5);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -506,6 +514,7 @@
       "stra": "Too much information.",
       "strb": "TMI",
       "act": "",
+      "sac":"tobp(1.2);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -517,6 +526,7 @@
       "stra": "I do not.",
       "strb": "I really don't :)",
       "act": "",
+      "sac":"tobp(1);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -550,6 +560,7 @@
       "ansa": "Again, disgusting.",
       "ansb": "Disgusting, really.",
       "act": "",
+      "sac":"tobp(0.1);",
       "vari": "",
       "uvar": ""
     },
@@ -560,6 +571,7 @@
       "stra": "Strangle you.",
       "strb": "Strangle you. Repeatedly. ",
       "act": "",
+      "sac":"tobp(1.2);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -571,6 +583,7 @@
       "stra": "You are now going to be blocked.",
       "strb": "BLOCKED, PERVERT!",
       "act": "",
+      "sac":"tobp(10);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -582,6 +595,7 @@
       "stra": "Of course not! Stop saying things like that.",
       "strb": "I can block you, you know?",
       "act": "",
+      "sac":"tobp(1.2);",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -593,6 +607,7 @@
       "stra": "I do not think likewise.",
       "strb": "I don't :)",
       "act": "",
+      "sac":"tobp(0.8);",
       "vari": "owner",
       "uvar": "",
       "foro": "true"
@@ -626,6 +641,7 @@
       "stra": "What? No! Stop saying things like that.",
       "strb": "You know I can block you, right?",
       "act": "",
+      "sac":"tobp(1);",
       "vari": "",
       "uvar": "",
       "foro": ""
