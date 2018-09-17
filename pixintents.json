@@ -757,7 +757,8 @@
       "orientation": "bisexual",
       "mouseover": "You're covering me with the mouse...",
       "mouseoverMobile": "Hey, stop touching me!",
-      "click": "You just clicked me. Why did you do that again?"
+      "click": "You just clicked me. Why did you do that, again?",
+      "tap": "You just tapped me. Why did you do that?"
     }
   ]
 }
