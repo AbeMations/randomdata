@@ -738,8 +738,32 @@
       "qst":"You are a bad person.", 
       "ansa":"Not to you, $%vara.", 
       "ansb":"Not to you, $%vara.", 
-      "stra":"Yes I am.", "strb":"I am.", 
-      "act":"", "vari":"$%pixnames.ABEY.nickname", 
+      "stra":"Yes I am.", 
+      "strb":"I am.", 
+      "act":"", 
+      "vari":"$%pixnames.ABEY.nickname", 
+      "uvar":"", 
+      "foro":"true" 
+    },
+    { 
+      "qst":"My brother does tons of noise.", 
+      "ansa":"Typical sibling stuff!", 
+      "ansb":"Typical sibling shit.", 
+      "stra":"", 
+      "strb":"", 
+      "act":"", 
+      "vari":"",
+      "uvar":"", 
+      "foro":"" 
+    },
+    { 
+      "qst":"It had to happen.", 
+      "ansa":"I agree.", 
+      "ansb":"I really agree.", 
+      "stra":"Yep.", 
+      "strb":"Mmhmm.", 
+      "act":"", 
+      "vari":"", 
       "uvar":"", 
       "foro":"true" 
     }
