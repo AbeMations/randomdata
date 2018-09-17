@@ -774,9 +774,20 @@
       "stra":"Sorry, I can't tell you that information.", 
       "strb":"Can't say.", 
       "act":"", 
-      "vari":"$%", 
+      "vari":"", 
       "uvar":"", 
       "foro":"true" 
+    },
+    { 
+      "qst":"What is my name?", 
+      "ansa":"You are $%vara", 
+      "ansb":"You're $%vara.", 
+      "stra":"", 
+      "strb":"", 
+      "act":"", 
+      "vari":"$%talkingto", 
+      "uvar":"", 
+      "foro":"" 
     }
   ],
   "steadyvar": [
