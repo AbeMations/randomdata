@@ -780,7 +780,7 @@
     },
     { 
       "qst":"What is my name?", 
-      "ansa":"You are $%vara", 
+      "ansa":"You are $%vara.", 
       "ansb":"You're $%vara.", 
       "stra":"", 
       "strb":"", 
