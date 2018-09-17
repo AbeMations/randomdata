@@ -734,7 +734,7 @@
       "uvar": "",
       "foro": ""
     },
-{ "qst":"You are a bad person.", "ansa":"Not to you, $%vari.", "ansb":"Not to you, $%vari.", "stra":"Yes I am.", "strb":"I am.", "act":"", "vari":"$%'Hello!'", "uvar":"", "foro":"true" }
+{ "qst":"You are a bad person.", "ansa":"Not to you, $%vara.", "ansb":"Not to you, $%vara.", "stra":"Yes I am.", "strb":"I am.", "act":"", "vari":"$%'Hello!'", "uvar":"", "foro":"true" }
   ],
   "steadyvar": [
     {
