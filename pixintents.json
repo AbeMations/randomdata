@@ -766,6 +766,17 @@
       "vari":"", 
       "uvar":"", 
       "foro":"true" 
+    },
+    { 
+      "qst":"Who is $%uvar?", 
+      "ansa":"$%vari", 
+      "ansb":"$%vari", 
+      "stra":"Sorry, I can't tell you that information.", 
+      "strb":"Can't say.", 
+      "act":"", 
+      "vari":"$%", 
+      "uvar":"", 
+      "foro":"true" 
     }
   ],
   "steadyvar": [
