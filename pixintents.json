@@ -788,7 +788,8 @@
       "vari":"$%talkingto", 
       "uvar":"", 
       "foro":"" 
-    }
+    },
+{ "qst":"On a scale of 1 to 10, what is your favorite color?", "ansa":"That doesn't make sense, but I'll go with $%vara.", "ansb":"I guess I'll go with $%vara.", "stra":"", "strb":"", "act":"", "vari":"$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor", "uvar":"", "foro":"" }
   ],
   "steadyvar": [
     {
