@@ -805,10 +805,22 @@
       "ansa": "I love you too, $%vara!",
       "ansb": "Love you too, $%vara!",
       "stra": "I do not think likewise.",
-      "strb": "I don't :)",
+      "strb": "I don't.",
       "act": "",
       "sac":"tobp(0.8);",
       "vari": "owner",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "How much battery do I have left?",
+      "ansa": "You have $%vara left.",
+      "ansb": "You have $%vara.",
+      "stra": "$%vara.",
+      "strb": "$%vara",
+      "act": "",
+      "sac":"",
+      "vari": "$%navigator.getBattery().then(function(battery) { return (battery.level * 100 + " ")});",
       "uvar": "",
       "foro": "true"
     }
