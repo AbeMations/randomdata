@@ -820,7 +820,7 @@
       "strb": "$%vara",
       "act": "",
       "sac":"",
-      "vari": "$%navigator.getBattery().then(function(battery) { return (battery.level * 100 + " ")});",
+      "vari": "$%navigator.getBattery().then(function(battery) { return (battery.level * 100 + '%')});",
       "uvar": "",
       "foro": "true"
     }
