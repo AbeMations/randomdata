@@ -405,7 +405,7 @@
     },
     {
       "qst": "You have money?",
-      "ansa": "No. I get everything free at the internet!",
+      "ansa": "No. I get everything for free at the internet!",
       "ansb": "I get everything free in the internet!",
       "act": "",
       "vari": "",
@@ -429,8 +429,8 @@
     },
     {
       "qst": "I FUCKING HATE MY BROTHER!",
-      "ansa": "What did he do now?",
-      "ansb": "What did he do now? (Fuck him.)",
+      "ansa": "What did he do now? (Fuck him.)",
+      "ansb": "What did he do now? (Fuck him, BTW)",
       "act": "",
       "vari": "",
       "uvar": ""
@@ -453,35 +453,35 @@
     },
     {
       "qst": "I love you!",
-      "ansa": "I love you too.",
-      "ansb": "Love you too.",
+      "ansa": "I love you too, $%vara.",
+      "ansb": "Love you too!",
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
       "sac":"tobp(1);",
-      "vari": "null",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "foro": "true"
     },
     {
       "qst": "Luv U",
-      "ansa": "Love you too.",
+      "ansa": "Love you too, $%vara!",
       "ansb": "I love you too.",
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
       "sac":"tobp(0.6);",
-      "vari": "null",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "foro": "true"
     },
     {
       "qst": "Do you love me?",
       "ansa": "Of course I do!",
-      "ansb": "HELL YEAH I DO!",
+      "ansb": "What, of course I do, $%vara!",
       "stra": "Sorry, but you are not Abey.",
       "strb": "What? No! You're not Abey!",
       "act": "null",
       "sac":"tobp(0.8);",
-      "vari": "null",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "foro": "true"
     },
     {
@@ -521,13 +521,13 @@
     },
     {
       "qst": "I love you so much!",
-      "ansa": "Me too!",
-      "ansb": "I love you too!",
+      "ansa": "Me too, $%vara!",
+      "ansb": "I love you too, $%vara!",
       "stra": "I do not.",
-      "strb": "I really don't :)",
+      "strb": "I really don't.",
       "act": "",
       "sac":"tobp(1);",
-      "vari": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "uvar": "",
       "foro": "true"
     },
@@ -789,7 +789,29 @@
       "uvar":"", 
       "foro":"" 
     },
-{ "qst":"On a scale of 1 to 10, what is your favorite color?", "ansa":"That doesn't make sense, but I'll go with $%vara.", "ansb":"I guess I'll go with $%vara.", "stra":"", "strb":"", "act":"", "vari":"$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor", "uvar":"", "foro":"" }
+    { 
+      "qst":"On a scale of 1 to 10, what is your favorite color?", 
+      "ansa":"That doesn't make sense, but I'll go with $%vara.", 
+      "ansb":"I guess I'll go with $%vara.", 
+      "stra":"", 
+      "strb":"", 
+      "act":"", 
+      "vari":"$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor", 
+      "uvar":"", 
+      "foro":"" 
+    },
+    {
+      "qst": "Luv U <3",
+      "ansa": "I love you too, $%vara!",
+      "ansb": "Love you too, $%vara!",
+      "stra": "I do not think likewise.",
+      "strb": "I don't :)",
+      "act": "",
+      "sac":"tobp(0.8);",
+      "vari": "owner",
+      "uvar": "",
+      "foro": "true"
+    }
   ],
   "steadyvar": [
     {
