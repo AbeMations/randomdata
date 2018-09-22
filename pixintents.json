@@ -390,10 +390,10 @@
       "stra": "Yes, I know",
       "strb": "I know.",
       "act": "",
-      "sac":"tobp(1.8);",
+      "sac": "tobp(1.8);",
       "vari": "",
       "uvar": "",
-      "foro":"true"
+      "foro": "true"
     },
     {
       "qst": "What do you think about people?",
@@ -458,7 +458,7 @@
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
-      "sac":"tobp(1);",
+      "sac": "tobp(1);",
       "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "foro": "true"
     },
@@ -469,7 +469,7 @@
       "stra": "Sorry, but I do not think likewise.",
       "strb": "I dont think so!",
       "act": "null",
-      "sac":"tobp(0.6);",
+      "sac": "tobp(0.6);",
       "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "foro": "true"
     },
@@ -480,7 +480,7 @@
       "stra": "Sorry, but you are not Abey.",
       "strb": "What? No! You're not Abey!",
       "act": "null",
-      "sac":"tobp(0.8);",
+      "sac": "tobp(0.8);",
       "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "foro": "true"
     },
@@ -502,7 +502,7 @@
       "stra": "What? Don't talk to me like that, you perv!",
       "strb": "Don't talk to me about that, perv!",
       "act": "",
-      "sac":"tobp(5);",
+      "sac": "tobp(5);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -514,7 +514,7 @@
       "stra": "Too much information.",
       "strb": "TMI",
       "act": "",
-      "sac":"tobp(1.2);",
+      "sac": "tobp(1.2);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -526,7 +526,7 @@
       "stra": "I do not.",
       "strb": "I really don't.",
       "act": "",
-      "sac":"tobp(1);",
+      "sac": "tobp(1);",
       "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
       "uvar": "",
       "foro": "true"
@@ -560,7 +560,7 @@
       "ansa": "Again, disgusting.",
       "ansb": "Disgusting, really.",
       "act": "",
-      "sac":"tobp(0.1);",
+      "sac": "tobp(0.1);",
       "vari": "",
       "uvar": ""
     },
@@ -571,7 +571,7 @@
       "stra": "Strangle you.",
       "strb": "Strangle you. Repeatedly. ",
       "act": "",
-      "sac":"tobp(1.2);",
+      "sac": "tobp(1.2);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -583,7 +583,7 @@
       "stra": "You are now going to be blocked.",
       "strb": "BLOCKED, PERVERT!",
       "act": "",
-      "sac":"tobp(10);",
+      "sac": "tobp(10);",
       "vari": "",
       "uvar": "",
       "foro": "true"
@@ -595,7 +595,7 @@
       "stra": "Of course not! Stop saying things like that.",
       "strb": "I can block you, you know?",
       "act": "",
-      "sac":"tobp(1.2);",
+      "sac": "tobp(1.2);",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -607,7 +607,7 @@
       "stra": "I do not think likewise.",
       "strb": "I don't :)",
       "act": "",
-      "sac":"tobp(0.8);",
+      "sac": "tobp(0.8);",
       "vari": "owner",
       "uvar": "",
       "foro": "true"
@@ -641,7 +641,7 @@
       "stra": "What? No! Stop saying things like that.",
       "strb": "You know I can block you, right?",
       "act": "",
-      "sac":"tobp(1);",
+      "sac": "tobp(1);",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -734,71 +734,71 @@
       "uvar": "",
       "foro": ""
     },
-    { 
-      "qst":"You are a bad person.", 
-      "ansa":"Not to you, $%vara.", 
-      "ansb":"Not to you, $%vara.", 
-      "stra":"Yes I am.", 
-      "strb":"I am.", 
-      "act":"", 
-      "vari":"$%pixnames.ABEY.nickname", 
-      "uvar":"", 
-      "foro":"true" 
+    {
+      "qst": "You are a bad person.",
+      "ansa": "Not to you, $%vara.",
+      "ansb": "Not to you, $%vara.",
+      "stra": "Yes I am.",
+      "strb": "I am.",
+      "act": "",
+      "vari": "$%pixnames.ABEY.nickname",
+      "uvar": "",
+      "foro": "true"
     },
-    { 
-      "qst":"My brother does tons of noise.", 
-      "ansa":"Typical sibling stuff!", 
-      "ansb":"Typical sibling shit.", 
-      "stra":"", 
-      "strb":"", 
-      "act":"", 
-      "vari":"",
-      "uvar":"", 
-      "foro":"" 
+    {
+      "qst": "My brother does tons of noise.",
+      "ansa": "Typical sibling stuff!",
+      "ansb": "Typical sibling shit.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
     },
-    { 
-      "qst":"It had to happen.", 
-      "ansa":"I agree.", 
-      "ansb":"I really agree.", 
-      "stra":"Yep.", 
-      "strb":"Mmhmm.", 
-      "act":"", 
-      "vari":"", 
-      "uvar":"", 
-      "foro":"true" 
+    {
+      "qst": "It had to happen.",
+      "ansa": "I agree.",
+      "ansb": "I really agree.",
+      "stra": "Yep.",
+      "strb": "Mmhmm.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
     },
-    { 
-      "qst":"Who is $%uvar?", 
-      "ansa":"$%vari", 
-      "ansb":"$%vari", 
-      "stra":"Sorry, I can't tell you that information.", 
-      "strb":"Can't say.", 
-      "act":"", 
-      "vari":"", 
-      "uvar":"", 
-      "foro":"true" 
+    {
+      "qst": "Who is $%uvar?",
+      "ansa": "$%vari",
+      "ansb": "$%vari",
+      "stra": "Sorry, I can't tell you that information.",
+      "strb": "Can't say.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
     },
-    { 
-      "qst":"What is my name?", 
-      "ansa":"You are $%vara.", 
-      "ansb":"You're $%vara.", 
-      "stra":"", 
-      "strb":"", 
-      "act":"", 
-      "vari":"$%talkingto", 
-      "uvar":"", 
-      "foro":"" 
+    {
+      "qst": "What is my name?",
+      "ansa": "You are $%vara.",
+      "ansb": "You're $%vara.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%talkingto",
+      "uvar": "",
+      "foro": ""
     },
-    { 
-      "qst":"On a scale of 1 to 10, what is your favorite color?", 
-      "ansa":"That doesn't make sense, but I'll go with $%vara.", 
-      "ansb":"I guess I'll go with $%vara.", 
-      "stra":"", 
-      "strb":"", 
-      "act":"", 
-      "vari":"$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor", 
-      "uvar":"", 
-      "foro":"" 
+    {
+      "qst": "On a scale of 1 to 10, what is your favorite color?",
+      "ansa": "That doesn't make sense, but I'll go with $%vara.",
+      "ansb": "I guess I'll go with $%vara.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor",
+      "uvar": "",
+      "foro": ""
     },
     {
       "qst": "Luv U <3",
@@ -807,7 +807,7 @@
       "stra": "I do not think likewise.",
       "strb": "I don't.",
       "act": "",
-      "sac":"tobp(0.8);",
+      "sac": "tobp(0.8);",
       "vari": "owner",
       "uvar": "",
       "foro": "true"
@@ -819,8 +819,74 @@
       "stra": "$%vara.",
       "strb": "$%vara",
       "act": "",
-      "sac":"",
+      "sac": "",
       "vari": "$%navigator.getBattery().then(function(battery) { return (battery.level * 100 + '%')});",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What is your favorite color?",
+      "ansa": "My favorite color is $%vara.",
+      "ansb": "It's $%vara!",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I'm gonna see a movie.",
+      "ansa": "Great! What are you watching?",
+      "ansb": "Cool! Which one?",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "We're gonna see a movie.",
+      "ansa": "Great! Which one will it be?",
+      "ansb": "Cool! Name?",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I am watching a movie!",
+      "ansa": "",
+      "ansb": "",
+      "stra": "",
+      "strb": "",
+      "act": "setTimeout(function() { var nt = (lastNot < 2) ? 'Sorry, just wanted to talk.' : 'Cool!'; var alte = (Math.floor(Math.random()*10) > 5) ? 'Cool!' : 'Great!'; if (nt == 'Cool!') { pixSay(alte); } else { pixSay(nt); } }, 50 );",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "My mom is the best.",
+      "ansa": "She really is.",
+      "ansb": "Truuuuue!",
+      "stra": "Okay.",
+      "strb": "K.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Mom is the best",
+      "ansa": "That is true!",
+      "ansb": "Very very true.",
+      "stra": "Cool.",
+      "strb": "Oooookay.",
+      "act": "",
+      "vari": "",
       "uvar": "",
       "foro": "true"
     }
