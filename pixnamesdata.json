@@ -1,6 +1,6 @@
 {
 "ABEY":{
-  "name":"ABEY GOTAY",
+  "name":"ABEY JOSE GOTAY",
   "age":"$%(new Date()).getFullYear() - 2005",
   "orientation":"straight",
   "job":"programmer",
@@ -9,10 +9,22 @@
   "birthmonth":"2",
   "birthday":"11",
   "birthyear":"2005",
-  "crush":"LIA VALERIO",
+  "crush":"GENESIS ROCHA",
   "truelove":"PIXEL",
   "intelligence":"HIGH",
-  "nickname":"Aby"
+  "nickname":"Aby",
+  "dataP":{
+    "0":"He is skinny",
+    "1":"He has curly hair",
+    "2":"He has big feet",
+    "3":"He likes music. A lot",
+    "4":"He likes any type of art",
+    "5":"He is the best human out there",
+    "6":"He likes to program",
+    "7":"He is a ",
+    "8":"His favorite color is a green-ish blue",
+    "9":"On a scale of 1 to 10, his favorite color is E"
+  }
 },
 "PIXEL":{
   "name":"PIXEL AI",
@@ -27,7 +39,19 @@
   "crush":"ABEY",
   "truelove":"ABEY",
   "intelligence":"HIGH",
-  "nickname":"Pix"
+  "nickname":"Pix",
+  "dataP":{
+    "0":"She is very cute",
+    "1":"She is very helpful",
+    "2":"She is kinda short",
+    "3":"She likes music. A lot",
+    "4":"She likes any type of art",
+    "5":"She is the best out of the Pix'",
+    "6":"She likes to program",
+    "7":"She is a perv",
+    "8":"Her favorite color is a green-ish blue",
+    "9":"She can manipulate programming across platforms"
+  }
 },
 "LIA":{
   "name":"LIA VALERIO",
@@ -103,5 +127,80 @@
   "truelove":"",
   "intelligence":"LOW",
   "nickname":"Javi"
+},
+"KENIA":{
+  "name":"KENIA ALMONTE",
+  "age":"$%(new Date()).getFullYear() - 1980",
+  "orientation":"straight",
+  "job":"Graphic Designer",
+  "weight":"",
+  "favoritecolor":"green",
+  "birthmonth":"",
+  "birthday":"",
+  "birthyear":"1980",
+  "crush":"",
+  "truelove":"EFRAIN GOTAY",
+  "intelligence":"MEDIUM-HIGH",
+  "nickname":"KENIA"
+},
+"JOSE":{
+  "name":"JOSE EFRAIN GOTAY",
+  "age":"$%(new Date()).getFullYear() - 1980",
+  "orientation":"straight",
+  "job":"Graphic Designer",
+  "weight":"",
+  "favoritecolor":"RED ",
+  "birthmonth":"",
+  "birthday":"",
+  "birthyear":"1980",
+  "crush":"",
+  "truelove":"KENIA ALMONTE",
+  "intelligence":"MEDIUM",
+  "nickname":"Efra"
+},
+"CARIB":{
+  "name":"CARIB ASIEL GOTAY",
+  "age":"$%(new Date()).getFullYear() - 2017",
+  "orientation":"",
+  "job":"",
+  "weight":"",
+  "favoritecolor":"",
+  "birthmonth":"8",
+  "birthday":"22",
+  "birthyear":"2017",
+  "crush":"",
+  "truelove":"",
+  "intelligence":"BABY",
+  "nickname":"Caribo"
+},
+"BAYOAN":{
+  "name":"BAYOAN MATEO GOTAY",
+  "age":"$%(new Date()).getFullYear() - 2011",
+  "orientation":"",
+  "job":"",
+  "weight":"",
+  "favoritecolor":"red",
+  "birthmonth":"11",
+  "birthday":"9",
+  "birthyear":"2011",
+  "crush":"",
+  "truelove":"",
+  "intelligence":"ZERO",
+  "nickname":"Bayo"
+},
+"AMAURY":{
+  "name":"AMAURY GONZALEZ",
+  "age":"$%(new Date()).getFullYear() - 2006",
+  "orientation":"",
+  "job":"",
+  "weight":"",
+  "favoritecolor":"",
+  "birthmonth":"",
+  "birthday":"",
+  "birthyear":"2006",
+  "crush":"GUARINA MEZQUIDA",
+  "truelove":"",
+  "intelligence":"MEDIUM",
+  "nickname":"Amaury"
 }
 }
