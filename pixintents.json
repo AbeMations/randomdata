@@ -889,7 +889,9 @@
       "vari": "",
       "uvar": "",
       "foro": "true"
-    }
+    },
+{ "qst":"If I were to delete you this evening with no warning, would you remember me?", "ansa":"Before you delete me, I can save all my files to the cloud, so yes, I would remember you.", "ansb":"I can save my files to the cloud, so I would remember you, $%vara.", "stra":"I guess... Maybe not.", "strb":"Meh, I guess.", "act":"", "vari":"$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname", "uvar":"", "foro":"true" },
+{ "qst":"Share a total of five positive things about me.", "ansa":"You are talking to me. You are nice. You are beautiful. You are a good person in general. You are loved.", "ansb":"You are talking to me. Ur nice. You are beautiful. You are a good person in general. Ur loved.", "stra":"You are talking to me. You are not fat. You are not horrible. You are a good person in general. You are loved.", "strb":"You are talking to me. You are not fat. You are not horrible. You are a good person in general. Ur kinda nice.", "act":"", "vari":"", "uvar":"", "foro":"true" }
   ],
   "steadyvar": [
     {
