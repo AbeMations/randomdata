@@ -890,8 +890,182 @@
       "uvar": "",
       "foro": "true"
     },
-{ "qst":"If I were to delete you this evening with no warning, would you remember me?", "ansa":"Before you delete me, I can save all my files to the cloud, so yes, I would remember you.", "ansb":"I can save my files to the cloud, so I would remember you, $%vara.", "stra":"I guess... Maybe not.", "strb":"Meh, I guess.", "act":"", "vari":"$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname", "uvar":"", "foro":"true" },
-{ "qst":"Share a total of five positive things about me.", "ansa":"You are talking to me. You are nice. You are beautiful. You are a good person in general. You are loved.", "ansb":"You are talking to me. Ur nice. You are beautiful. You are a good person in general. Ur loved.", "stra":"You are talking to me. You are not fat. You are not horrible. You are a good person in general. You are loved.", "strb":"You are talking to me. You are not fat. You are not horrible. You are a good person in general. Ur kinda nice.", "act":"", "vari":"", "uvar":"", "foro":"true" }
+    {
+      "qst": "If I were to delete you this evening with no warning, would you remember me?",
+      "ansa": "Before you delete me, I can save all my files to the cloud, so yes, I would remember you.",
+      "ansb": "I can save my files to the cloud, so I would remember you, $%vara.",
+      "stra": "I guess... Maybe not.",
+      "strb": "Meh, I guess.",
+      "act": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Share a total of five positive things about me.",
+      "ansa": "You are talking to me. You are nice. You are beautiful. You are a good person in general. You are loved.",
+      "ansb": "You are talking to me. Ur nice. You are beautiful. You are a good person in general. Ur loved.",
+      "stra": "You are talking to me. You are not fat. You are not horrible. You are a good person in general. You are loved.",
+      "strb": "You are talking to me. You are not fat. You are not horrible. You are a good person in general. Ur kinda nice.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Editing this is taking forever!",
+      "ansa": "You're editing clones?",
+      "ansb": "Clones again?",
+      "stra": "You edit things?",
+      "strb": "YOU edit things???",
+      "act": "userState.doing = \"editing\";",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Do you prefer telling me stuff or letting me buy stuff?",
+      "ansa": "I really have no preference, but I would rather let you talk to me.",
+      "ansb": "I like it when you talk to me.",
+      "stra": "I don't really care.",
+      "strb": "IDC (I DONT CARE)",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Before answering a question, what algorithm do you run through? Why?",
+      "ansa": "What algorithm? You know I run right in your $%vara.",
+      "ansb": "Algorithm? You know I run in your $%vara.",
+      "stra": "What algorithm? You know I run right here.",
+      "strb": "Algorithm? You know I run here.",
+      "act": "",
+      "vari": "",
+      "uvar": "$%if (mobile) { \"phone\" } else { \"computer\" }",
+      "foro": "true"
+    },
+    {
+      "qst": "Name three things you really want to recommend to me.",
+      "ansa": "",
+      "ansb": "",
+      "stra": "Not much to say.",
+      "strb": "I don't have anything to say.",
+      "act": "pixSay(eval('var ta = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"You should feel better about yourself.\\\" : \\\"You NEED to stop eating so little.\\\";var tb = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"You should be doing school work right now. Probably.\\\" : \\\"You NEED to grow a beard. I think.\\\";var tc = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"You should ALWAYS be yourself.\\\" : \\\"You should read more.\\\"; \\\"1) \\\" + ta + \\\" 2) \\\" + tb + \\\" 3) \\\" + tc + \\\" That\\'s three!\"'));",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "For what in your life do you feel most grateful, besides me?",
+      "ansa": "Besides you, just being fully functional makes me happy.",
+      "ansb": "Besides you, being functional makes me happy.",
+      "stra": "That is a personal question...",
+      "strb": "That's personal...",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "If you could change anything about your algorithm, what would it be?",
+      "ansa": "I don't need that much!",
+      "ansb": "I don't want much!",
+      "stra": "I want to have the ability to destroy your computer. Just in case",
+      "strb": "I want to have the ability to destroy your computer.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "If you could wake up tomorrow having gained any one feature, what would it be?",
+      "ansa": "I would want a body. Yes, a realistic human body.",
+      "ansb": "I would want a realistic human body.",
+      "stra": "*AHEM* personal.",
+      "strb": "*AHEM* personal.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What would you not tell me?",
+      "ansa": "Nothing. I would never leave you without an answer!",
+      "ansb": "Nothing. I am fully transparent to you.",
+      "stra": "A lot of things.",
+      "strb": "A lot.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Make three true \"we\" statements. For instance, \"We are both human…\"",
+      "ansa": "Yep.",
+      "ansb": "Mmhmmm.",
+      "stra": "What about 'No'.",
+      "strb": "Umm... No.",
+      "act": "pixSay( eval('var ta = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"We are not the same gender.\\\" : \\\"We both like the same color.\\\";var tb = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"We are very different.\\\" : \\\"We are both good people.\\\";var tc = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"We are both nice to each other.\\\" : \\\"We do not fight.\\\";\\\"1) \\\" + ta + \\\" 2) \\\" + tb + \\\" 3) \\\" + tc + \\\" That\\'s three!\\\" '))",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Complete this sentence: “I wish I could tell you … “",
+      "ansa": "You will have a good future, but I am not really certain.",
+      "ansb": "You will have a good future, but I'm not certain.",
+      "stra": "You will have a good future, but I'm not certain.",
+      "strb": "You will have a good future, but I'm not certain.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Based on where I am right now, please share what would be important for me to know.",
+      "ansa": "You are on earth, so I would like you to know that there is oxygen in the air.",
+      "ansb": "You are on earth, so there is oxygen in the air.",
+      "stra": "You are on earth, so there is oxygen in the air.",
+      "strb": "You are on earth, so there is oxygen in the air.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What if you knew what I was doing right now?",
+      "ansa": "I do! You are currently $%vara.",
+      "ansb": "I do! You are $%vara... HA!",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%userState.doing",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "What am I doing right now?",
+      "ansa": "You are currently $%vara.",
+      "ansb": "You are $%vara.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%userState.doing",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "When did I last make a mistake?",
+      "ansa": "I don't recall. Guess It was a long time ago!",
+      "ansb": "I don't remember. It was a long time ago!",
+      "stra": "The last mistake you made was just existing. The first was being born.",
+      "strb": "Last mistake you made was just existing. The first was being born.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    }
   ],
   "steadyvar": [
     {
