@@ -1077,11 +1077,29 @@
       "acronym": "Programmable Interface X (And) Enhanced Logistics",
       "catchfrase": "Here to help.",
       "owner": "Abey",
-      "orientation": "bisexual",
+      "orientation": "bisexual"
+    }
+  ],
+  "actions": [
+    {  
       "mouseover": "You're covering me with the mouse...",
       "mouseoverMobile": "Hey, stop touching me!",
       "click": "You just clicked me. Why did you do that, again?",
       "tap": "You just tapped me. Why did you do that?"
+    },
+    {
+      "person_smile":"",
+      "person_frown":"",
+      "person_sad":"",
+      "person_mad":"",
+      "person_wave":"",
+      "person_badfinger":"",
+      "owner_smile":"",
+      "owner_frown":"",
+      "owner_sad":"",
+      "owner_mad":"",
+      "owner_wave":"",
+      "owner_badfinger":""
     }
   ]
 }
