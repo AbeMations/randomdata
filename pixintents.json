@@ -1065,6 +1065,39 @@
       "vari": "",
       "uvar": "",
       "foro": "true"
+    },
+    {
+      "qst": "Do you like me?",
+      "ansa": "Of course I do, $%vara!",
+      "ansb": "Of course, $%vara.",
+      "stra": "Umm... No, I don't.",
+      "strb": "I don't... Sorry!",
+      "act": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Who do you like?",
+      "ansa": "Only you, $%vara.",
+      "ansb": "I only love you, $%vara.",
+      "stra": "Personal stuff, please!",
+      "strb": "Personal stuff!",
+      "act": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "I'm watching basketball...",
+      "ansa": "So you're bored?",
+      "ansb": "Soooooo, bored?",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
     }
   ],
   "steadyvar": [
@@ -1081,25 +1114,25 @@
     }
   ],
   "actions": [
-    {  
+    {
       "mouseover": "You're covering me with the mouse...",
       "mouseoverMobile": "Hey, stop touching me!",
       "click": "You just clicked me. Why did you do that, again?",
       "tap": "You just tapped me. Why did you do that?"
     },
     {
-      "person_smile":"",
-      "person_frown":"",
-      "person_sad":"",
-      "person_mad":"",
-      "person_wave":"",
-      "person_badfinger":"",
-      "owner_smile":"",
-      "owner_frown":"",
-      "owner_sad":"",
-      "owner_mad":"",
-      "owner_wave":"",
-      "owner_badfinger":""
+      "person_smile": "",
+      "person_frown": "",
+      "person_sad": "",
+      "person_mad": "",
+      "person_wave": "",
+      "person_badfinger": "",
+      "owner_smile": "",
+      "owner_frown": "",
+      "owner_sad": "",
+      "owner_mad": "",
+      "owner_wave": "",
+      "owner_badfinger": ""
     }
   ]
 }
