@@ -32,14 +32,14 @@
       "qst": "Pix",
       "ansa": "Yes?",
       "ansb": "Yes?",
-      "act": "null",
+      "act": "pixel.invoke()",
       "vari": "null"
     },
     {
       "qst": "Pixel?",
       "ansa": "Yes?",
       "ansb": "Yes?",
-      "act": "null",
+      "act": "pixel.invoke()",
       "vari": "null"
     },
     {
@@ -60,7 +60,7 @@
       "qst": "I need to go.",
       "ansa": "Okay. Talk to you later?",
       "ansb": "TTYL?",
-      "act": "null",
+      "act": "pixel.asked = \"$%talkingto will $%tof talk to me later.\" ",
       "vari": "null"
     },
     {
@@ -88,7 +88,7 @@
       "qst": "How are you?",
       "ansa": "Good, thanks. How are you?",
       "ansb": "Pretty good. You?",
-      "act": "null",
+      "act": "pixel.asked = \"$%talkingto is feeling $%avr.\"",
       "vari": "null"
     },
     {
@@ -102,7 +102,7 @@
       "qst": "How are you?",
       "ansa": "Good, thanks. How are you?",
       "ansb": "Pretty good. You?",
-      "act": "null",
+      "act": "pixel.asked = \"$%talkingto is feeling $%avr.\"",
       "vari": "null"
     },
     {
@@ -131,7 +131,7 @@
       "qst": "Awkward situation here, Pix!",
       "ansa": "Wait one moment...",
       "ansb": "One sec...",
-      "act": "user.awkwardsit",
+      "act": "user.awkwardsit()",
       "vari": "",
       "uvar": ""
     },
@@ -184,7 +184,7 @@
       "uvar": ""
     },
     {
-      "qst": "My brother is crying.",
+      "qst": "My little brother is crying.",
       "ansa": "Go get him!",
       "ansb": "Go get 'im!",
       "act": "",
@@ -283,7 +283,7 @@
       "qst": "Can you give me a hand?",
       "ansa": "Sure! What do you need?",
       "ansb": "Okay! What for?",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto needs help with $%avr.\"",
       "vari": "",
       "uvar": ""
     },
@@ -298,7 +298,7 @@
     {
       "qst": "Pix, you good?",
       "ansa": "Yeah, I'm okay.",
-      "ansb": "Yes. Why?",
+      "ansb": "Yep.",
       "act": "",
       "vari": "",
       "uvar": ""
@@ -415,7 +415,7 @@
       "qst": "How is life?",
       "ansa": "Pretty good so far! How about you?",
       "ansb": "Good so far! You?",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto s life is $%avr.\"",
       "vari": "",
       "uvar": ""
     },
@@ -618,7 +618,7 @@
       "ansb": "K. You bored?",
       "stra": "",
       "strb": "",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto is $%tof bored.\"",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -707,7 +707,7 @@
       "ansb": "I am, aren't I?",
       "stra": "",
       "strb": "",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto said I am $%tof good with references.\"",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -718,7 +718,7 @@
       "ansb": "K.",
       "stra": "",
       "strb": "",
-      "act": "lasti.ans = true;",
+      "act": "",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -841,7 +841,7 @@
       "ansb": "Cool! Which one?",
       "stra": "",
       "strb": "",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto is watching the movie $%avr.\"",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -852,7 +852,7 @@
       "ansb": "Cool! Name?",
       "stra": "",
       "strb": "",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto is watching the movie $%avr.\"",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -1094,7 +1094,7 @@
       "ansb": "Soooooo, bored?",
       "stra": "",
       "strb": "",
-      "act": "",
+      "act": "pixel.asked = \"$%talkingto is watching basketball and is $%tof feeling bored.\"",
       "vari": "",
       "uvar": "",
       "foro": ""
@@ -1111,6 +1111,13 @@
       "foro": ""
     }
   ],
+  "qstans": [
+    {
+      
+      "qst":"$%talkingto is watching basketball and is $%tof feeling bored.",
+    }
+  ]
+  
   "steadyvar": [
     {
       "name": "Pixel",
