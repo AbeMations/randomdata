@@ -1113,11 +1113,9 @@
   ],
   "qstans": [
     {
-      
-      "qst":"$%talkingto is watching basketball and is $%tof feeling bored.",
+      "qst":"$%talkingto is watching basketball and is $%tof feeling bored."
     }
-  ]
-  
+  ],
   "steadyvar": [
     {
       "name": "Pixel",
