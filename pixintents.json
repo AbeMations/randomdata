@@ -1113,7 +1113,25 @@
   ],
   "qstans": [
     {
-      "qst":"$%talkingto is watching basketball and is $%tof feeling bored."
+      "ans0":"Yep",
+      "ans1":"Yes",
+      "ans2":"Sure",
+      "ans3":"Positive",
+      "ans4":"Of course",
+      "ans5":"Yeah",
+      "ans6":"Pretty much.",
+      "ans7":"Mmhmmm",
+      "ans8":"Of course I am",
+      "ans9":"I am",
+      
+      "ans10":"Nope",
+      "ans11":"No",
+      "ans12":"Not",
+      "ans13":"Of course not",
+      "ans14":"Not really",
+      "ans15":"Mm-mm",
+      "ans16":"Am not",
+      "ans17":"I am not",
     }
   ],
   "steadyvar": [
