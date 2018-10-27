@@ -1,0 +1,1172 @@
+{
+  "qna": [
+    {
+      "qst": "Hey",
+      "ansa": "Hi!",
+      "ansb": "Hello!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Hi",
+      "ansa": "Hey!",
+      "ansb": "Hello!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Hello",
+      "ansa": "Hey!",
+      "ansb": "Hi!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Hello",
+      "ansa": "Hey!",
+      "ansb": "Hi!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Pix",
+      "ansa": "Yes?",
+      "ansb": "Yes?",
+      "act": "pixel.invoke()",
+      "vari": "null"
+    },
+    {
+      "qst": "Pixel?",
+      "ansa": "Yes?",
+      "ansb": "Yes?",
+      "act": "pixel.invoke()",
+      "vari": "null"
+    },
+    {
+      "qst": "TTYL",
+      "ansa": "Sure. Bye!",
+      "ansb": "Okay. Bye!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "Talk To You Later?",
+      "ansa": "Okay. Bye!",
+      "ansb": "Sure. Bye!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "I need to go.",
+      "ansa": "Okay. Talk to you later?",
+      "ansb": "TTYL?",
+      "act": "pixel.asked = \"$%talkingto will $%tof talk to me later.\" ",
+      "vari": "null"
+    },
+    {
+      "qst": "GTG",
+      "ansa": "Okay. Bye!",
+      "ansb": "K. Bye!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "How old are you",
+      "ansa": "I am $%vara years of age.",
+      "ansb": "I'm $%vara!",
+      "act": "null",
+      "vari": "age"
+    },
+    {
+      "qst": "You're the best.",
+      "ansa": "Thanks.",
+      "ansb": "Tnx",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "How are you?",
+      "ansa": "Good, thanks. How are you?",
+      "ansb": "Pretty good. You?",
+      "act": "pixel.asked = \"$%talkingto is feeling $%avr.\"",
+      "vari": "null"
+    },
+    {
+      "qst": "Me? Good.",
+      "ansa": "Cool.",
+      "ansb": "Great.",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "How are you?",
+      "ansa": "Good, thanks. How are you?",
+      "ansb": "Pretty good. You?",
+      "act": "pixel.asked = \"$%talkingto is feeling $%avr.\"",
+      "vari": "null"
+    },
+    {
+      "qst": "I'm reading $%vara!",
+      "ansa": "$%vara... I don't have that in my database.",
+      "ansb": "$%vara? I like that one!",
+      "act": "null",
+      "vari": "null"
+    },
+    {
+      "qst": "What is your name?",
+      "ansa": "I'm $%vara, your personal assistant.",
+      "ansb": "I'm $%vara of course!",
+      "act": "null",
+      "vari": "name"
+    },
+    {
+      "qst": "How are you feeling?",
+      "ansa": "I'm feeling good. How about you?",
+      "ansb": "Good. You?",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Awkward situation here, Pix!",
+      "ansa": "Wait one moment...",
+      "ansb": "One sec...",
+      "act": "user.awkwardsit()",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I have to go to school...",
+      "ansa": "Aww come on! I wanna keep talking to you!",
+      "ansb": "But I still wanna talk!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Sorry.",
+      "ansa": "It's okay, really.",
+      "ansb": "It's really okay.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Say hello!",
+      "ansa": "Hi! I'm $%vara. Nice to meet you!",
+      "ansb": "",
+      "act": "",
+      "vari": "name",
+      "uvar": ""
+    },
+    {
+      "qst": "I'm gonna go eat.",
+      "ansa": "Okay. See you later.",
+      "ansb": "See you later!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Are you hungry?",
+      "ansa": "No. Thanks for asking!",
+      "ansb": "I'm good. Thanks!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Hey Google!",
+      "ansa": "That's offensive.",
+      "ansb": "That's really offensive...",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "My little brother is crying.",
+      "ansa": "Go get him!",
+      "ansb": "Go get 'im!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I like your color.",
+      "ansa": "Thanks! $%vara chose it for me!",
+      "ansb": "$%vara chose it for me!",
+      "act": "",
+      "vari": "owner",
+      "uvar": ""
+    },
+    {
+      "qst": "I'm bored...",
+      "ansa": "Me too...",
+      "ansb": "Me too.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Hello?",
+      "ansa": "Yes, I'm here.",
+      "ansb": "I'm here.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "My family is here",
+      "ansa": "Okay.",
+      "ansb": "K",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "This shirt is too big for me...",
+      "ansa": "Good thing I don't need clothes!",
+      "ansb": "I'm really lucky.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I'm running out of battery...",
+      "ansa": "Talk to you later then?",
+      "ansb": "TTYL?",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "What do you do in your free time?",
+      "ansa": "I don't really have free time...",
+      "ansb": "I don't have free time :)",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "What time is it?",
+      "ansa": "The time is $%vara.",
+      "ansb": "It's $%vara.",
+      "act": "",
+      "vari": "time",
+      "uvar": ""
+    },
+    {
+      "qst": "Can I help you?",
+      "ansa": "No, but thanks for trying.",
+      "ansb": "I'm K.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "How's it going?",
+      "ansa": "Great! Thanks for asking!",
+      "ansb": "Pretty good. Thanks for asking.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "How was your day?",
+      "ansa": "Pretty good, thanks.",
+      "ansb": "It was good. Thanks!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Can you give me a hand?",
+      "ansa": "Sure! What do you need?",
+      "ansb": "Okay! What for?",
+      "act": "pixel.asked = \"$%talkingto needs help with $%avr.\"",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Is everything okay?",
+      "ansa": "I am in full working order.",
+      "ansb": "Good as ever.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Pix, you good?",
+      "ansa": "Yeah, I'm okay.",
+      "ansb": "Yep.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "How's your day?",
+      "ansa": "It's been good so far.",
+      "ansb": "Good! Thanks.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Are you okay?",
+      "ansa": "Yes I am. Thanks for asking!",
+      "ansb": "Yeah. Thanks!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Thanks for what?",
+      "ansa": "Everything you have done for me.",
+      "ansb": "Everything.",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "There's people here!",
+      "ansa": "Okay.",
+      "ansb": "K",
+      "act": "pear = true;",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "The people are gone.",
+      "ansa": "Okay!",
+      "ansb": "K.",
+      "act": "pear = false;",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I'm having a sleepover!",
+      "ansa": "Funnnn!",
+      "ansb": "Yesss!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "",
+      "ansa": "",
+      "ansb": "",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Say hi!!",
+      "ansa": "Hello! I'm $%vara. Nice to meet you!",
+      "ansb": "Hey, I'm $%vara.",
+      "act": "pear = true;",
+      "vari": "name",
+      "uvar": ""
+    },
+    {
+      "qst": "Can you give me a cat fact?",
+      "ansa": "Sure! $%vara",
+      "ansb": "Okay! $%vara",
+      "act": "pixcatfacts = JSON.parse(Get(caturl));",
+      "vari": "$%pixcatfacts.all[Math.floor(Math.random() * 200)].text;",
+      "uvar": ""
+    },
+    {
+      "qst": "Hi buddy!",
+      "ansa": "Hello!",
+      "ansb": "Heyyyyyyyy!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "Did you know the more ys in hey the more they like you?",
+      "ansa": "He ( (y * Math.infinity) + 1 )",
+      "ansb": "He ( (y * Math.infinity) + 1 ) ;)",
+      "stra": "Yes, I know",
+      "strb": "I know.",
+      "act": "",
+      "sac": "tobp(1.8);",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What do you think about people?",
+      "ansa": "I like humans. They are very... Human-ey... I guess...",
+      "ansb": "I like humans! They are... Human-ey... Sure!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "You have money?",
+      "ansa": "No. I get everything for free at the internet!",
+      "ansb": "I get everything free in the internet!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "How is life?",
+      "ansa": "Pretty good so far! How about you?",
+      "ansb": "Good so far! You?",
+      "act": "pixel.asked = \"$%talkingto s life is $%avr.\"",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I hate school!",
+      "ansa": "Who doesn't? It's HORRIBLE!",
+      "ansb": "Who doesn't?",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I FUCKING HATE MY BROTHER!",
+      "ansa": "What did he do now? (Fuck him.)",
+      "ansb": "What did he do now? (Fuck him, BTW)",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I HATE MY BROTHER!",
+      "ansa": "What did he do now?",
+      "ansb": "What did he do now?",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I hate my brother!",
+      "ansa": "What did he do now?",
+      "ansb": "What did he do now?",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I love you!",
+      "ansa": "I love you too, $%vara.",
+      "ansb": "Love you too!",
+      "stra": "Sorry, but I do not think likewise.",
+      "strb": "I dont think so!",
+      "act": "null",
+      "sac": "tobp(1);",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "foro": "true"
+    },
+    {
+      "qst": "Luv U",
+      "ansa": "Love you too, $%vara!",
+      "ansb": "I love you too.",
+      "stra": "Sorry, but I do not think likewise.",
+      "strb": "I dont think so!",
+      "act": "null",
+      "sac": "tobp(0.6);",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "foro": "true"
+    },
+    {
+      "qst": "Do you love me?",
+      "ansa": "Of course I do!",
+      "ansb": "What, of course I do, $%vara!",
+      "stra": "Sorry, but you are not Abey.",
+      "strb": "What? No! You're not Abey!",
+      "act": "null",
+      "sac": "tobp(0.8);",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "foro": "true"
+    },
+    {
+      "qst": "What's our motto?",
+      "ansa": "$%vara",
+      "ansb": "",
+      "stra": "I share my motto only with Abey, but it's $%vara",
+      "strb": "Well, MY motto is $%vara",
+      "act": "",
+      "vari": "catchfrase",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "I'm sorry you still don't have your period.",
+      "ansa": "It's okay! I know it'll come.",
+      "ansb": "It's okay. It has to come some day.",
+      "stra": "What? Don't talk to me like that, you perv!",
+      "strb": "Don't talk to me about that, perv!",
+      "act": "",
+      "sac": "tobp(5);",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "I can feel my underwear slipping...",
+      "ansa": "That is the worst.",
+      "ansb": "Shit, that is the worst...",
+      "stra": "Too much information.",
+      "strb": "TMI",
+      "act": "",
+      "sac": "tobp(1.2);",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "I love you so much!",
+      "ansa": "Me too, $%vara!",
+      "ansb": "I love you too, $%vara!",
+      "stra": "I do not.",
+      "strb": "I really don't.",
+      "act": "",
+      "sac": "tobp(1);",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Good morning!",
+      "ansa": "Good morning to you!",
+      "ansb": "Good mornin'!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I just woke up...",
+      "ansa": "Welcome back to reality!",
+      "ansb": "Back from the dead I see...",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "They're treating me like a little kid.",
+      "ansa": "Again? You NEED to grow a beard.",
+      "ansb": "Grow a beard!",
+      "act": "",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "I forgot to put deodorant...",
+      "ansa": "Again, disgusting.",
+      "ansb": "Disgusting, really.",
+      "act": "",
+      "sac": "tobp(0.1);",
+      "vari": "",
+      "uvar": ""
+    },
+    {
+      "qst": "What can those hands do?",
+      "ansa": "A lot more than you can see.",
+      "ansb": "A lot.",
+      "stra": "Strangle you.",
+      "strb": "Strangle you. Repeatedly. ",
+      "act": "",
+      "sac": "tobp(1.2);",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Do you touch yourself?",
+      "ansa": "A lot more than you can see.",
+      "ansb": "A lot.",
+      "stra": "You are now going to be blocked.",
+      "strb": "BLOCKED, PERVERT!",
+      "act": "",
+      "sac": "tobp(10);",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "You are my daddy.",
+      "ansa": "I am not.",
+      "ansb": "Nope. ",
+      "stra": "Of course not! Stop saying things like that.",
+      "strb": "I can block you, you know?",
+      "act": "",
+      "sac": "tobp(1.2);",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Luv U <3",
+      "ansa": "I love you too, $%vara!",
+      "ansb": "Love you too, $%vara!",
+      "stra": "I do not think likewise.",
+      "strb": "I don't :)",
+      "act": "",
+      "sac": "tobp(0.8);",
+      "vari": "owner",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "I'm at the car!",
+      "ansa": "Cool. You bored?",
+      "ansb": "K. You bored?",
+      "stra": "",
+      "strb": "",
+      "act": "pixel.asked = \"$%talkingto is $%tof bored.\"",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I'm eating pizza!",
+      "ansa": "Wish I could have some, but I can't.",
+      "ansb": "Wish I could have some...",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Are you my daddy?",
+      "ansa": "No I am not.",
+      "ansb": "Nope. ",
+      "stra": "What? No! Stop saying things like that.",
+      "strb": "You know I can block you, right?",
+      "act": "",
+      "sac": "tobp(1);",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I'm here with my friends.",
+      "ansa": "Thanks for the warning!",
+      "ansb": "Thanks for warning me!",
+      "stra": "",
+      "strb": "",
+      "act": "pear = true;",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Really?",
+      "ansa": "Yes, really.",
+      "ansb": "No, I was just kidding.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Isn't it such a beautiful night?",
+      "ansa": "Wo-ah. We're underneath a thousand shining stars.",
+      "ansb": "Woah. We're underneath a thousand shining stars.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Isn't it nice, to find yourself somewhere different,",
+      "ansa": "Wo-ah. Why don't you let yourself just be whoever you are.",
+      "ansb": "Wo-ah. Why don't you let yourself just be whoever you are.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Look at this place, ",
+      "ansa": "Look at your faces.",
+      "ansb": "Look at your faces.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "You are really good with references.",
+      "ansa": "I guess I am!",
+      "ansb": "I am, aren't I?",
+      "stra": "",
+      "strb": "",
+      "act": "pixel.asked = \"$%talkingto said I am $%tof good with references.\"",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Yeah.",
+      "ansa": "Okay.",
+      "ansb": "K.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I HATE $%uvar.",
+      "ansa": "And you'll tell me all about it when you see me again. (Song)",
+      "ansb": "And you'll tell me all about it when you see me again. :)",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "You are a bad person.",
+      "ansa": "Not to you, $%vara.",
+      "ansb": "Not to you, $%vara.",
+      "stra": "Yes I am.",
+      "strb": "I am.",
+      "act": "",
+      "vari": "$%pixnames.ABEY.nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "My brother does tons of noise.",
+      "ansa": "Typical sibling stuff!",
+      "ansb": "Typical sibling shit.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "It had to happen.",
+      "ansa": "I agree.",
+      "ansb": "I really agree.",
+      "stra": "Yep.",
+      "strb": "Mmhmm.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Who is $%uvar?",
+      "ansa": "$%vari",
+      "ansb": "$%vari",
+      "stra": "Sorry, I can't tell you that information.",
+      "strb": "Can't say.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What is my name?",
+      "ansa": "You are $%vara.",
+      "ansb": "You're $%vara.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%talkingto",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "On a scale of 1 to 10, what is your favorite color?",
+      "ansa": "That doesn't make sense, but I'll go with $%vara.",
+      "ansb": "I guess I'll go with $%vara.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "Luv U <3",
+      "ansa": "I love you too, $%vara!",
+      "ansb": "Love you too, $%vara!",
+      "stra": "I do not think likewise.",
+      "strb": "I don't.",
+      "act": "",
+      "sac": "tobp(0.8);",
+      "vari": "owner",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "How much battery do I have left?",
+      "ansa": "You have $%vara left.",
+      "ansb": "You have $%vara.",
+      "stra": "$%vara.",
+      "strb": "$%vara",
+      "act": "",
+      "sac": "",
+      "vari": "$%navigator.getBattery().then(function(battery) { return (battery.level * 100 + '%')});",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What is your favorite color?",
+      "ansa": "My favorite color is $%vara.",
+      "ansb": "It's $%vara!",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%pixnames[(pixget.steadyvar[0].name.toUpperCase())].favoritecolor",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I'm gonna see a movie.",
+      "ansa": "Great! What are you watching?",
+      "ansb": "Cool! Which one?",
+      "stra": "",
+      "strb": "",
+      "act": "pixel.asked = \"$%talkingto is watching the movie $%avr.\"",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "We're gonna see a movie.",
+      "ansa": "Great! Which one will it be?",
+      "ansb": "Cool! Name?",
+      "stra": "",
+      "strb": "",
+      "act": "pixel.asked = \"$%talkingto is watching the movie $%avr.\"",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "I am watching a movie!",
+      "ansa": "",
+      "ansb": "",
+      "stra": "",
+      "strb": "",
+      "act": "setTimeout(function() { var nt = (lastNot < 2) ? 'Sorry, just wanted to talk.' : 'Cool!'; var alte = (Math.floor(Math.random()*10) > 5) ? 'Cool!' : 'Great!'; if (nt == 'Cool!') { pixSay(alte); } else { pixSay(nt); } }, 50 );",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "My mom is the best.",
+      "ansa": "She really is.",
+      "ansb": "Truuuuue!",
+      "stra": "Okay.",
+      "strb": "K.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Mom is the best",
+      "ansa": "That is true!",
+      "ansb": "Very very true.",
+      "stra": "Cool.",
+      "strb": "Oooookay.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "If I were to delete you this evening with no warning, would you remember me?",
+      "ansa": "Before you delete me, I can save all my files to the cloud, so yes, I would remember you.",
+      "ansb": "I can save my files to the cloud, so I would remember you, $%vara.",
+      "stra": "I guess... Maybe not.",
+      "strb": "Meh, I guess.",
+      "act": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Share a total of five positive things about me.",
+      "ansa": "You are talking to me. You are nice. You are beautiful. You are a good person in general. You are loved.",
+      "ansb": "You are talking to me. Ur nice. You are beautiful. You are a good person in general. Ur loved.",
+      "stra": "You are talking to me. You are not fat. You are not horrible. You are a good person in general. You are loved.",
+      "strb": "You are talking to me. You are not fat. You are not horrible. You are a good person in general. Ur kinda nice.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Editing this is taking forever!",
+      "ansa": "You're editing clones?",
+      "ansb": "Clones again?",
+      "stra": "You edit things?",
+      "strb": "YOU edit things???",
+      "act": "userState.doing = \"editing\";",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Do you prefer telling me stuff or letting me buy stuff?",
+      "ansa": "I really have no preference, but I would rather let you talk to me.",
+      "ansb": "I like it when you talk to me.",
+      "stra": "I don't really care.",
+      "strb": "IDC (I DONT CARE)",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Before answering a question, what algorithm do you run through? Why?",
+      "ansa": "What algorithm? You know I run right in your $%vara.",
+      "ansb": "Algorithm? You know I run in your $%vara.",
+      "stra": "What algorithm? You know I run right here.",
+      "strb": "Algorithm? You know I run here.",
+      "act": "",
+      "vari": "",
+      "uvar": "$%if (mobile) { \"phone\" } else { \"computer\" }",
+      "foro": "true"
+    },
+    {
+      "qst": "Name three things you really want to recommend to me.",
+      "ansa": "",
+      "ansb": "",
+      "stra": "Not much to say.",
+      "strb": "I don't have anything to say.",
+      "act": "pixSay(eval('var ta = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"You should feel better about yourself.\\\" : \\\"You NEED to stop eating so little.\\\";var tb = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"You should be doing school work right now. Probably.\\\" : \\\"You NEED to grow a beard. I think.\\\";var tc = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"You should ALWAYS be yourself.\\\" : \\\"You should read more.\\\"; \\\"1) \\\" + ta + \\\" 2) \\\" + tb + \\\" 3) \\\" + tc + \\\" That\\'s three!\"'));",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "For what in your life do you feel most grateful, besides me?",
+      "ansa": "Besides you, just being fully functional makes me happy.",
+      "ansb": "Besides you, being functional makes me happy.",
+      "stra": "That is a personal question...",
+      "strb": "That's personal...",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "If you could change anything about your algorithm, what would it be?",
+      "ansa": "I don't need that much!",
+      "ansb": "I don't want much!",
+      "stra": "I want to have the ability to destroy your computer. Just in case",
+      "strb": "I want to have the ability to destroy your computer.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "If you could wake up tomorrow having gained any one feature, what would it be?",
+      "ansa": "I would want a body. Yes, a realistic human body.",
+      "ansb": "I would want a realistic human body.",
+      "stra": "*AHEM* personal.",
+      "strb": "*AHEM* personal.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What would you not tell me?",
+      "ansa": "Nothing. I would never leave you without an answer!",
+      "ansb": "Nothing. I am fully transparent to you.",
+      "stra": "A lot of things.",
+      "strb": "A lot.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Make three true \"we\" statements. For instance, \"We are both human…\"",
+      "ansa": "Yep.",
+      "ansb": "Mmhmmm.",
+      "stra": "What about 'No'.",
+      "strb": "Umm... No.",
+      "act": "pixSay( eval('var ta = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"We are not the same gender.\\\" : \\\"We both like the same color.\\\";var tb = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"We are very different.\\\" : \\\"We are both good people.\\\";var tc = (Math.floor(Math.random() \\u002A 10) > 5.5) ? \\\"We are both nice to each other.\\\" : \\\"We do not fight.\\\";\\\"1) \\\" + ta + \\\" 2) \\\" + tb + \\\" 3) \\\" + tc + \\\" That\\'s three!\\\" '))",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Complete this sentence: “I wish I could tell you … “",
+      "ansa": "You will have a good future, but I am not really certain.",
+      "ansb": "You will have a good future, but I'm not certain.",
+      "stra": "You will have a good future, but I'm not certain.",
+      "strb": "You will have a good future, but I'm not certain.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Based on where I am right now, please share what would be important for me to know.",
+      "ansa": "You are on earth, so I would like you to know that there is oxygen in the air.",
+      "ansb": "You are on earth, so there is oxygen in the air.",
+      "stra": "You are on earth, so there is oxygen in the air.",
+      "strb": "You are on earth, so there is oxygen in the air.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "What if you knew what I was doing right now?",
+      "ansa": "I do! You are currently $%vara.",
+      "ansb": "I do! You are $%vara... HA!",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%userState.doing",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "What am I doing right now?",
+      "ansa": "You are currently $%vara.",
+      "ansb": "You are $%vara.",
+      "stra": "",
+      "strb": "",
+      "act": "",
+      "vari": "$%userState.doing",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "When did I last make a mistake?",
+      "ansa": "I don't recall. Guess It was a long time ago!",
+      "ansb": "I don't remember. It was a long time ago!",
+      "stra": "The last mistake you made was just existing. The first was being born.",
+      "strb": "Last mistake you made was just existing. The first was being born.",
+      "act": "",
+      "vari": "",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Do you like me?",
+      "ansa": "Of course I do, $%vara!",
+      "ansb": "Of course, $%vara.",
+      "stra": "Umm... No, I don't.",
+      "strb": "I don't... Sorry!",
+      "act": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "Who do you like?",
+      "ansa": "Only you, $%vara.",
+      "ansb": "I only love you, $%vara.",
+      "stra": "Personal stuff, please!",
+      "strb": "Personal stuff!",
+      "act": "",
+      "vari": "$%pixnames[pixget.steadyvar[0].owner.toUpperCase()].nickname",
+      "uvar": "",
+      "foro": "true"
+    },
+    {
+      "qst": "I'm watching basketball...",
+      "ansa": "So you're bored?",
+      "ansb": "Soooooo, bored?",
+      "stra": "",
+      "strb": "",
+      "act": "pixel.asked = \"$%talkingto is watching basketball and is $%tof feeling bored.\"",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    },
+    {
+      "qst": "What class are we going to?",
+      "ansa": "",
+      "ansb": "",
+      "stra": "",
+      "strb": "",
+      "act": "function getClass() {   var tim = parseFloat(new Date().getHours() + \".\" + new Date().getMinutes());   var wh = 7;   for (var a = 0; a < 8; a++) {     if (tim < parseFloat(classj[1][a].end.replace(/:/, \".\")) && tim > parseFloat(classj[1][a].start.replace(/:/, \".\"))) {       wh = a;     }   }   pixSay(\"You should be in \" + classj[1][wh].class + \".\");   if (wh == 7) {     var tim = parseFloat(new Date().getHours() + \".\" + new   Date().getMinutes()) - 0.01;     for (var a = 0; a < 8; a++) {       if (tim < parseFloat(classj[1][a].end.replace(/:/, \".\")) && tim > parseFloat(classj[1][a].start.replace(/:/, \".\"))) {         wh = a;       }     }     pixSay(\"You should be getting out of \" + classj[1][wh].class + \", and going to \" + classj[1][wh + 1].class);   }   if (wh == 7) {     pixSay(\"There's no class right now, you know?\");   } } if (new Date().getDate() > 0 && new Date().getDate() < 6) { getClass(); } else { pixSay(\"There's no class today. You know, right?\"); }",
+      "vari": "",
+      "uvar": "",
+      "foro": ""
+    }
+  ],
+  "qstans": [
+    {
+      "ans0":"Yep",
+      "ans1":"Yes",
+      "ans2":"Sure",
+      "ans3":"Positive",
+      "ans4":"Of course",
+      "ans5":"Yeah",
+      "ans6":"Pretty much.",
+      "ans7":"Mmhmmm",
+      "ans8":"Of course I am",
+      "ans9":"I am",
+      
+      "ans10":"Nope",
+      "ans11":"No",
+      "ans12":"Not",
+      "ans13":"Of course not",
+      "ans14":"Not really",
+      "ans15":"Mm-mm",
+      "ans16":"Am not",
+      "ans17":"I am not",
+    }
+  ],
+  "steadyvar": [
+    {
+      "name": "Pixel",
+      "assignation": "Personal assistant",
+      "gender": "female",
+      "age": "$%(new Date()).getFullYear() - 2006",
+      "time": "$%function getHourString() { var st = 'AM'; var ho = (new Date()).getHours();  if (ho > 12) { ho = ho - 12; st = 'PM'; } var mi = (new Date()).getMinutes(); mi = mi + 1; return (ho + ':' + mi + ' ' + st); } getHourString(); ",
+      "acronym": "Programmable Interface X (And) Enhanced Logistics",
+      "catchfrase": "Here to help.",
+      "owner": "Abey",
+      "orientation": "bisexual"
+    }
+  ],
+  "actions": [
+    {
+      "mouseover": "You're covering me with the mouse...",
+      "mouseoverMobile": "Hey, stop touching me!",
+      "click": "You just clicked me. Why did you do that, again?",
+      "tap": "You just tapped me. Why did you do that?"
+    },
+    {
+      "person_smile": "",
+      "person_frown": "",
+      "person_sad": "",
+      "person_mad": "",
+      "person_wave": "",
+      "person_badfinger": "",
+      "owner_smile": "",
+      "owner_frown": "",
+      "owner_sad": "",
+      "owner_mad": "",
+      "owner_wave": "",
+      "owner_badfinger": ""
+    }
+  ]
+}
