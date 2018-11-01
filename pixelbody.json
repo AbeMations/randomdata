@@ -6,19 +6,25 @@
       "ansb":"La hora es $%vara."
     },
     {
-      "qst":"Que hora es?",
-      "ansa":"",
-      "ansb":""
+      "qst":"Quien es Abey?",
+      "ansa":"Abey es el co-lider de Ramz Studios, y dirige su propio canal, llamado !AbeMations.",
+      "ansb":"Abey. Co-lider de Ramz Studios. Dirige su propio canal, llamado !AbeMations."
+      "eng":"true"
+    },
+    {
+      "qst":"Quien es Marsel?",
+      "ansa":"Marsel es el lider de Ramz Studios, pero tiene su propio canal aparte, Marsel Ocho.",
+      "ansb":"Marsel. Lider de Ramz Studios. Dirige su propio canal como Marsel Ocho."
     }
   ],
   "steadyvar": [
     {
       "name": "Random",
-      "assignation": "Personal AI assistant",
+      "assignation": "AI assistant",
       "gender": "female",
-      "time": "$%function getHourString() { var st = 'AM'; var ho = (new Date()).getHours();  if (ho > 12) { ho = ho - 12; st = 'PM'; } var mi = (new Date()).getMinutes(); mi = mi + 1; return (ho + ':' + mi + ' ' + st); } getHourString(); ",
-      "acronym": "Programmable Interface X (And) Enhanced Logistics",
-      "owner": "Ramz"
+      "time": "",
+      "acronym": "",
+      "owner": "Ramz Studios"
     }
   ]
 }
