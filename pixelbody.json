@@ -4,17 +4,23 @@
       "qst":"Que hora es?",
       "ansa":"Son las $%vara.",
       "ansb":"La hora es $%vara."
+      "vari":"time"
     },
     {
       "qst":"Quien es Abey?",
       "ansa":"Abey es el co-lider de Ramz Studios, y dirige su propio canal, llamado !AbeMations.",
-      "ansb":"Abey. Co-lider de Ramz Studios. Dirige su propio canal, llamado !AbeMations.",
+      "ansb":"Abey. Co-lider de Ramz Studios. Dirige su propio canal, llamado !AbeMations, o Ramz !Talks.",
       "eng":"true"
     },
     {
       "qst":"Quien es Marsel?",
       "ansa":"Marsel es el lider de Ramz Studios, pero tiene su propio canal aparte, Marsel Ocho.",
-      "ansb":"Marsel. Lider de Ramz Studios. Dirige su propio canal como Marsel Ocho."
+      "ansb":"Marsel. Lider de Ramz Studios. Dirige su propio canal como Marsel Ocho, o Ramz Vlogs."
+    },
+    {
+      "qst":"Quien es Diego?",
+      "ansa":"Diego, tambien llamado Dj Panda, es parte de Ramz Studios, pero tiene su propio canal, Dj Panda, o Ramz !Music.",
+      "ansb":"Diego. Parte de Ramz Studios. Tambien llamado Dj Panda, pero dirige su propio canal: Dj Panda, o Ramz !Music."
     }
   ],
   "steadyvar": [
